@@ -38,7 +38,7 @@ export default function Portfolio() {
                 &lt;
               </button>
               <div className="w-2/3 relative">
-                <div className="bg-black w-full h-full absolute grid grid-cols-2 items-center justify-center p-20 gap-6 opacity-0 hover:opacity-75">
+                <div className="bg-black w-full h-full absolute grid grid-cols-2 items-center justify-center p-2 lg:p-10 gap-6 opacity-0 hover:opacity-75">
                   {project.tags.map((tag) => (
                     <div className="border-2 border-coolGray-600 bg-coolGray-600 rounded-full p-2 text-center">
                       <p className="text-white">{tag}</p>
