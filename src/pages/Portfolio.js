@@ -9,15 +9,16 @@ const initialState = {
 };
 
 function indexReducer(state, action) {
-  console.log(initialState);
+  const { index, size } = state;
+
   switch (action.type) {
     case "increase":
       return {
         ...state,
-        index: state.index >= state.size ? state.size : state.index++,
+        index: index === size ? index : index + 1,
       };
     case "decrease":
-      return { ...state, index: state.index <= 0 ? 0 : state.index-- };
+      return { ...state, index: index === 0 ? 0 : index - 1 };
     default:
       throw new Error();
   }
