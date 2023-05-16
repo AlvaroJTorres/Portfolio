@@ -58,14 +58,18 @@ export default function Portfolio() {
             </div>
             <div>{project.description}</div>
             <div className="flex gap-6">
-              <a href={`${project.deploy_link}`}>
+              <a
+                href={`${project.deploy_link}`}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className="w-16"
                   src={project.deploy_icon}
                   alt="deploy site icon"
                 />
               </a>
-              <a href={`${project.repo_link}`}>
+              <a href={`${project.repo_link}`} target="_blank" rel="noreferrer">
                 <img
                   className="w-16"
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"

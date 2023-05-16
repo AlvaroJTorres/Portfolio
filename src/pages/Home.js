@@ -15,7 +15,12 @@ export default function Home() {
         <h3>Full Stack Developer</h3>
       </div>
       <div className="flex items-center justify-center gap-5 p-4">
-        <a className="w-16" href="https://github.com/AlvaroJTorres">
+        <a
+          className="w-16"
+          href="https://github.com/AlvaroJTorres"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="github"
@@ -24,6 +29,8 @@ export default function Home() {
         <a
           className="w-16 bg-white p-3 rounded-full"
           href="https://www.linkedin.com/in/alvaro-julian-torres-malla/"
+          target="_blank"
+          rel="noreferrer"
         >
           <img
             src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
