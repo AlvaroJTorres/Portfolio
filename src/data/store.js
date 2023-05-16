@@ -9,9 +9,8 @@ export const STORE = [
     tags: ["Ruby on Rails", "erb", "css"],
     description:
       "App for rating and reviewing games and publisher companies, built on Ruby on Rails",
-    deploy_link: "https://critics-app.herokuapp.com/",
-    deploy_icon:
-      "https://media-exp1.licdn.com/dms/image/C4E0BAQGmNZMDOpmMQg/company-logo_200_200/0/1519905610801?e=2159024400&v=beta&t=D5lu9rTbQ_aW1ubme8GIq_QhKIm8WTiXTtoBlEHPcA8",
+    deploy_link: "https://critics-production.up.railway.app/",
+    deploy_icon: "https://railway.app/brand/logo-dark.svg",
     repo_link: "https://github.com/AlvaroJTorres/Critics",
   },
   {
