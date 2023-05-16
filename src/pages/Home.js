@@ -1,5 +1,6 @@
 import { StyledMainContainer } from "../components/Container";
 import { StyledTitle } from "../components/Text";
+import ProfileImage from "../images/profile.png";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center text-xl gap-6">
         <img
           className="w-25 h-25 rounded-full"
-          src="https://media-exp1.licdn.com/dms/image/C4E03AQFfLURNTLQLCw/profile-displayphoto-shrink_800_800/0/1611281569071?e=1654732800&v=beta&t=P1oQDO4ApPZfMrcHG6IhQaJcIssKQ9i4dBtVaxRvbcI"
+          src={`${ProfileImage}`}
           alt="profile"
         />
         <StyledTitle>ALVARO JULIAN TORRES MALLA</StyledTitle>
