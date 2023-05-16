@@ -19,9 +19,8 @@ export const STORE = [
     tags: ["Ruby on Rails", "React", "Tailwindcss"],
     description:
       "App for searching and publishing food recipes, built on Ruby on Rails using ReactJS for the frontend",
-    deploy_link: "https://recipes-list-v1.herokuapp.com/",
-    deploy_icon:
-      "https://media-exp1.licdn.com/dms/image/C4E0BAQGmNZMDOpmMQg/company-logo_200_200/0/1519905610801?e=2159024400&v=beta&t=D5lu9rTbQ_aW1ubme8GIq_QhKIm8WTiXTtoBlEHPcA8",
+    deploy_link: "https://recipes-list-production.up.railway.app/",
+    deploy_icon: "https://railway.app/brand/logo-dark.svg",
     repo_link: "https://github.com/AlvaroJTorres/Recipes-List",
   },
   {
