@@ -1,8 +1,20 @@
 import CriticsImage from "../images/Critics.png";
 import RecipesListImage from "../images/Recipelist.png";
 import ExpensableImage from "../images/Expensable.png";
+import ReservationsApiImage from "../images/ReservationsAPI.jpg";
 
 export const STORE = [
+  {
+    title: "ReservationsApi",
+    image: ReservationsApiImage,
+    tags: ["API", "Trailblazer", "Doorkeeper", "Docker", "Rspec", "Swagger"],
+    description:
+      "API that simulates the management of a restaurant chain, assinging managers, managing calendars and simulating customer reservations",
+    deploy_link:
+      "https://reservationsapi-production.up.railway.app/api-docs/index.html",
+    deploy_icon: "https://railway.app/brand/logo-dark.svg",
+    repo_link: "https://github.com/AlvaroJTorres/reservations_api",
+  },
   {
     title: "Critics",
     image: CriticsImage,
