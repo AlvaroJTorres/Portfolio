@@ -7,19 +7,26 @@ export default function AboutMe() {
       <div className="flex flex-col justify-center gap-6">
         <StyledTitle>ABOUT ME</StyledTitle>
         <StyledParagraph>
-          I am a Full-Stack Developer, trained in develop and mantain web
-          applications, using React as a framework for building responsive and
-          interactive web pages and Ruby on Rails for developing functional APIs
-          according to the clients requirement.
+          Full-Stack Web Developer with ~1.5 years of experience coding in
+          academic and professional environments. Proficient in building complex
+          API with Ruby on Rails using PostgreSQL, Trailblazer, Service Objects
+          and Doorkeeper.
         </StyledParagraph>
         <StyledParagraph>
-          I also have experienced with writign code in Python and developed 2D
-          games using C# and Unity.
+          Trained to elaborate, maintain and optimize Web Applications based on
+          SPA, using React as framework for the FrontEnd.
         </StyledParagraph>
         <StyledParagraph>
-          During my time as an organizational psychologist, I learned the
-          importance and the need to implement new technologies to deliver
-          results faster and efficiently, according to customer needs.
+          I've also worked with NodeJS to elaborate APIs and have experience
+          building applications in Python and 2D Games with Unity and C#
+        </StyledParagraph>
+        <StyledParagraph>
+          In my previous experience as an organizational psychologist I was able
+          to develop my communication skills, my abilities to both work and lead
+          teams and improve techniques to organize tasks in order to achieve
+          project goals. Also, I learned the importance and the need to
+          implement new technologies to deliver results faster and efficiently,
+          according to customer needs.
         </StyledParagraph>
       </div>
     </StyledMainContainer>
