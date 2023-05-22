@@ -2,6 +2,7 @@ import CriticsImage from "../images/Critics.png";
 import RecipesListImage from "../images/Recipelist.png";
 import ExpensableImage from "../images/Expensable.png";
 import ReservationsApiImage from "../images/ReservationsAPI.jpg";
+import StoreImage from "../images/Store.png";
 
 export const STORE = [
   {
@@ -14,6 +15,17 @@ export const STORE = [
       "https://reservationsapi-production.up.railway.app/api-docs/index.html",
     deploy_icon: "https://railway.app/brand/logo-dark.svg",
     repo_link: "https://github.com/AlvaroJTorres/reservations_api",
+  },
+  {
+    title: "Store",
+    image: StoreImage,
+    tags: ["Ruby on Rails", "Stripe", "Doorkeeper", "Docker", "Rspec"],
+    description:
+      "App that simulates online shopping in a candy store, includes Stripe API to simulate credit card transaction and a API only functionality",
+    deploy_link: "https://rails-2gd8.onrender.com/",
+    deploy_icon:
+      "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWvUeHYyK0QKh9T_Bg34MDIkfEfNcCCMhVcnwG0z8mtDxJQULT",
+    repo_link: "https://github.com/AlvaroJTorres/Store",
   },
   {
     title: "Critics",
