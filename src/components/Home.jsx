@@ -12,15 +12,10 @@ const Home = () => {
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer</h2>
-          <p className='text-gray-500 py-4 max-w-md'>
-            Full-Stack Web Developer with 2 years of experience coding in academic and professional
-            environments. Proficient in building APIs with Ruby on Rails using PostgreSQL, Trailblazer,
-            Service Objects, and Doorkeeper. Skilled in elaborating, maintaining, and optimizing Web
-            Applications based on SPA, utilizing React as the framework for the FrontEnd. In my previous
-            experiences I developed strong communication skills, leadership abilities, and effective
-            teamwork techniques. I excel in problem-solving and possess the creativity to find innovative
-            solutions. With a passion for web development and capable of efficiently managing time and
-            resources while continuously seeking opportunities for professional growth.
+          <p className='text-gray-500 py-4 max-w-md lg:text-2xl'>
+            I have 2 years of experience building and desgining web applications and APIs.
+            Currently, I love to work on web development using technologies like
+            Ruby on Rails, React, Tailwind, and Node JS.
           </p>
 
           <div>
