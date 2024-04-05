@@ -13,21 +13,26 @@ const NavBar = () => {
     },
     {
       id: 2,
+      link: 'about',
+      title: 'about'
+    },
+    {
+      id: 3,
       link: 'experience',
       title: 'experience'
     },
     {
-      id: 3,
+      id: 4,
       link: 'portfolio',
       title: 'portfolio'
     },
     {
-      id: 4,
+      id: 5,
       link: 'tech',
       title: 'technology stack'
     },
     {
-      id: 5,
+      id: 6,
       link: 'contact',
       title: 'contact'
     },
@@ -35,7 +40,7 @@ const NavBar = () => {
 
   return (
     <div 
-      className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed'>
+      className='flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-10'>
       <div>
         <h1 className='text-5xl font-signature ml-2'>Alvaro Torres</h1>
       </div>
