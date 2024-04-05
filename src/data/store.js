@@ -1,10 +1,13 @@
+import React from "react";
 import CriticsImage from "../assets/portfolio/Critics.png";
 import RecipesListImage from "../assets/portfolio/Recipelist.png";
 import ExpensableImage from "../assets/portfolio/Expensable.png";
 import ReservationsApiImage from "../assets/portfolio/ReservationsAPI.jpg";
 import StoreImage from "../assets/portfolio/Store.png";
+import { FaChalkboardTeacher, FaReact } from "react-icons/fa";
+import { DiRuby } from "react-icons/di";
 
-export const STORE = [
+export const portfolio = [
   {
     title: "ReservationsApi",
     image: ReservationsApiImage,
@@ -59,3 +62,30 @@ export const STORE = [
     repo_link: "https://github.com/AlvaroJTorres/Expensable",
   },
 ];
+
+export const experience = [
+  {
+    title: 'Programming Instructor',
+    workplace: 'Crack The Code',
+    location: 'Lima, PE',
+    description: "Teaching virtual courses on coding and web application development for children and young learners.",
+    duration: 'ago 2023 - current',
+    icon: React.createElement(FaChalkboardTeacher)
+  },
+  {
+    title: 'Full Stack Web Developer (React, NodeJs)',
+    workplace: 'Holinsys',
+    location: 'Lima, PE',
+    description: "Developing customizable and dynamic frontend components using React and integrating API connections while contributing to the development of new modules for a logistics request handling API in Node.js with TypeScript.",
+    duration: 'ago 2023 - dec 2023',
+    icon: React.createElement(FaReact)
+  },
+  {
+    title: 'Back End Developer (Ruby on Rails, PostgreSQL, Docker)',
+    workplace: 'Applaudo',
+    location: 'San Salvador, SV',
+    description: "Developing and managing API endpoints with Service Objects and the Trailblazer framework, handling OAuth 2.0 authorization with Doorkeeper and Pundit, implementing Docker containers for application development.",
+    duration: 'jun 2022 - may 2023',
+    icon: React.createElement(DiRuby)
+  },
+]
