@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      signature: ['Great Vibes'],
+      signature: ['Montserrat'],
     }
   },
   plugins: [],
