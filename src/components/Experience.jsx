@@ -36,20 +36,13 @@ const Experience = () => {
                 }}
               >
                 <h3 className='text-2xl font-semibold capitalize text-gray-700'>{item.title}</h3>
-                <p className='text-gray-700'>{item.workplace}</p>
+                <h4 className='text-gray-700 text-xl mt-1'>{item.workplace}</h4>
                 <p className='text-gray-700'>{item.location}</p>
                 <p className='text-gray-700'>{item.description}</p>
               </VerticalTimelineElement>
             </React.Fragment>
           ))}
         </VerticalTimeline>
-
-        <p className='text-xl mt-20'>
-
-        </p>
-        <br/>
-        <p className='text-xl'>
-        </p>
       </div>
     </div>
   )
