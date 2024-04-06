@@ -10,7 +10,7 @@ const Portfolio = () => {
           <p className='py-6'>Check out some of my work right here</p>
         </div>
 
-        <div className='grid auto-rows-fr sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+        <div className='grid auto-rows-fr sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0'>
           {portfolio.map((project, index) => (
             <div key={index} className='flex flex-col justify-evenly items-center gap-4 shadow-md shadow-gray-600 rounded-lg'>
               <h3 className='text-2xl'>{project.title}</h3>
