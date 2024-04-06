@@ -16,8 +16,17 @@ const Portfolio = () => {
               <h3 className='text-2xl'>{project.title}</h3>
               <img src={project.image} alt={project.title} className='rounded-md duration-200 hover:scale-105 h-3/4 w-full'/>
               <div className='flex items-center justify-center'>
-                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>
+                {project.deploy_status && 
+                  <button className='px-6 py-3 m-4 duration-200 hover:scale-105'>
+                    <a
+                      href={project.deploy_link}
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      Demo
+                    </a>
+                  </button>}
+                <button className='px-6 py-3 m-4 duration-200 hover:scale-105'>
                   <a 
                     href={project.repo_link}
                     target="_blank"

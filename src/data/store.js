@@ -17,6 +17,7 @@ export const portfolio = [
     deploy_link:
       "https://reservationsapi-production.up.railway.app/api-docs/index.html",
     deploy_icon: "https://railway.app/brand/logo-dark.svg",
+    deploy_status: false,
     repo_link: "https://github.com/AlvaroJTorres/reservations_api",
   },
   {
@@ -26,8 +27,9 @@ export const portfolio = [
     description:
       "App that simulates online shopping in a candy store, includes Stripe API to simulate credit card transaction and a API only functionality",
     deploy_link: "https://rails-2gd8.onrender.com/",
-    deploy_icon:
+    deploy_icon: 
       "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWvUeHYyK0QKh9T_Bg34MDIkfEfNcCCMhVcnwG0z8mtDxJQULT",
+    deploy_status: false,
     repo_link: "https://github.com/AlvaroJTorres/Store",
   },
   {
@@ -38,6 +40,7 @@ export const portfolio = [
       "App for rating and reviewing games and publisher companies, built on Ruby on Rails",
     deploy_link: "https://critics-production.up.railway.app/",
     deploy_icon: "https://railway.app/brand/logo-dark.svg",
+    deploy_status: false,
     repo_link: "https://github.com/AlvaroJTorres/Critics",
   },
   {
@@ -48,6 +51,7 @@ export const portfolio = [
       "App for searching and publishing food recipes, built on Ruby on Rails using ReactJS for the frontend",
     deploy_link: "https://recipes-list-production.up.railway.app/",
     deploy_icon: "https://railway.app/brand/logo-dark.svg",
+    deploy_status: false,
     repo_link: "https://github.com/AlvaroJTorres/Recipes-List",
   },
   {
@@ -59,6 +63,7 @@ export const portfolio = [
     deploy_link: "https://expensable.netlify.app/",
     deploy_icon:
       "https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png",
+    deploy_status: true,
     repo_link: "https://github.com/AlvaroJTorres/Expensable",
   },
 ];
