@@ -10,14 +10,14 @@ const About = () => {
           </p>
         </div>
 
-        <p className='text-xl mt-20 text-justify lg:text-2xl'>
+        <p className='text-lg mt-20 text-justify md:text-3xl'>
           I'm a Full-Stack Web Developer with 2 years of experience coding in academic and professional
           environments. Proficient in building APIs with Ruby on Rails and using frameworks such as React for the FrontEnd.
         </p>
 
         <br/>
 
-        <p className='text-xl text-justify'>
+        <p className='text-lg text-justify md:text-2xl'>
           Proficient in building APIs with Ruby on Rails using PostgreSQL, Trailblazer,
           Service Objects, and Doorkeeper. Skilled in elaborating, maintaining, and optimizing Web
           Applications based on SPA, utilizing React as the framework for the FrontEnd. In my previous

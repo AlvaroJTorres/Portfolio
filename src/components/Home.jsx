@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/heroImage.jpg'
+import avatar from '../assets/avatar.png'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
 
@@ -13,9 +13,9 @@ const Home = () => {
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Full Stack Developer</h2>
           <p className='text-gray-500 py-4 max-w-md lg:text-2xl'>
-            I have 2 years of experience building and desgining web applications and APIs.
+            I have over 2 years of experience building and desgining web applications and APIs.
             Currently, I love to work on web development using technologies like
-            Ruby on Rails, React, Tailwind, and Node JS.
+            Ruby on Rails, React, Java, Tailwind, and Node.JS.
           </p>
 
           <div>
@@ -32,7 +32,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img src={HeroImage} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full'/>
+          <img src={avatar} alt='my profile' className='rounded-2xl mx-auto w-2/3 md:w-full'/>
         </div>
       </div>
     </div>
