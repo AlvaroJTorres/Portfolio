@@ -4,6 +4,7 @@ import Docker from '../assets/tech/docker.png'
 import Git from '../assets/tech/git.png'
 import Github from '../assets/tech/github.png'
 import Html from '../assets/tech/html.png'
+import Java from '../assets/tech/java.png'
 import Javascript from '../assets/tech/javascript.png'
 import Mongodb from '../assets/tech/mongodb.png'
 import NodeJs from '../assets/tech/node.png'
@@ -12,6 +13,7 @@ import Python from '../assets/tech/python.png'
 import ReactJs from '../assets/tech/react.png'
 import Ruby from '../assets/tech/ruby.png'
 import RoR from '../assets/tech/rubyonrails.png'
+import SpringBoot from '../assets/tech/springboot.png'
 import Tailwindcss from '../assets/tech/tailwind.png'
 
 const TechnologyStack = () => {
@@ -20,31 +22,26 @@ const TechnologyStack = () => {
       src: Ruby,
       title: 'Ruby',
       style: 'shadow-red-500'
-
     },
     {
       src: Javascript,
       title: 'JavaScript',
       style: 'shadow-yellow-500'
-
     },
     {
-      src: Python,
-      title: 'Python',
-      style: 'shadow-blue-500'
-
+      src: Java,
+      title: 'Java',
+      style: 'shadow-cyan-500'
     },
     {
       src: Html,
       title: 'HTML',
       style: 'shadow-orange-500'
-
     },
     {
       src: Css,
       title: 'CSS',
       style: 'shadow-blue-500'
-
     },
     {
       src: ReactJs,
@@ -68,6 +65,11 @@ const TechnologyStack = () => {
       style: 'shadow-blue-400'
     },
     {
+      src: Python,
+      title: 'Python',
+      style: 'shadow-blue-500'
+    },
+    {
       src: Git,
       title: 'Git',
       style: 'shadow-orange-600'
@@ -79,18 +81,23 @@ const TechnologyStack = () => {
     },
     {
       src: NodeJs,
-      title: 'NodeJs',
+      title: 'Node.js',
       style: 'shadow-green-600'
     },
     {
       src: Mongodb,
-      title: 'MongoDb',
+      title: 'MongoDB',
       style: 'shadow-green-500'
     },
     {
       src: Docker,
       title: 'Docker',
       style: 'shadow-cyan-500'
+    },
+    {
+      src: SpringBoot,
+      title: 'Spring Boot',
+      style: 'shadow-green-500'
     },
   ]
   return (
