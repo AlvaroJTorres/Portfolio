@@ -4,6 +4,9 @@ import RecipesListImage from "../assets/portfolio/Recipelist.png";
 import ExpensableImage from "../assets/portfolio/Expensable.png";
 import ReservationsApiImage from "../assets/portfolio/ReservationsAPI.jpg";
 import StoreImage from "../assets/portfolio/Store.png";
+import DiscoverBarranquillaImage from  "../assets/portfolio/DiscoverBarranquilla.jpg"
+import EarthquakeDataImage from "../assets/portfolio/EarthquakeData.jpg"
+import StudentAPIImage from "../assets/portfolio/StudentAPI.png"
 import { FaChalkboardTeacher, FaReact } from "react-icons/fa";
 import { DiRuby } from "react-icons/di";
 
@@ -65,6 +68,42 @@ export const portfolio = [
       "https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png",
     deploy_status: true,
     repo_link: "https://github.com/AlvaroJTorres/Expensable",
+  },
+  {
+    title: "Discover Barranquilla",
+    image: DiscoverBarranquillaImage,
+    tags: ["React", "Tailwindcss"],
+    description:
+      "App",
+    deploy_link: "",
+    deploy_icon:
+      "",
+    deploy_status: false,
+    repo_link: "https://github.com/AlvaroJTorres/Discover-Barranquilla",
+  },
+  {
+    title: "Earthquake Data",
+    image: EarthquakeDataImage,
+    tags: ["Ruby on Rails", "React", "Bootstrap", "PostgreSQL"],
+    description:
+      "App",
+    deploy_link: "",
+    deploy_icon:
+      "",
+    deploy_status: false,
+    repo_link: "https://github.com/AlvaroJTorres/earthquake_data",
+  },
+  {
+    title: "Student API",
+    image: StudentAPIImage,
+    tags: ["Java", "Spring Boot", "PostgreSQL"],
+    description:
+      "App",
+    deploy_link: "",
+    deploy_icon:
+      "",
+    deploy_status: false,
+    repo_link: "https://github.com/AlvaroJTorres/SpringAPITest",
   },
 ];
 
